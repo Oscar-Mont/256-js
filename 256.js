@@ -22,6 +22,15 @@ async function run() {
         console.log(`File: ${filePath}`);
         console.log(`SHA-256: ${hash}`);
 
-
+        if (expectedHash) {
+            if (hash.toLowerCase() === expectedHash.toLowerCase()) {
+                console.log("IT'S A MATCH!")
+            } else {
+                console.log("OH NO! IT'S A MISTATCH!")
+            }
+        }
+        console.log("---")
+    } catch (err) {
+        console.error(`Error: Could not read file "${filePath}}". Make sure it exists.`)
     }
 }
