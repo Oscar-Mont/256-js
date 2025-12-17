@@ -1,0 +1,21 @@
+{
+  "name": "256",
+  "version": "1.0.0",
+  "description": "A NodeJS CLI tool that calculates the SHA256 hash function for a given file and, optionally, compares it to a user-provided string to see if they match.",
+  "main": "256.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscar-Mont/256-js.git"
+  },
+  "keywords": [],
+  "author": "Oscar Monteverde",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Oscar-Mont/256-js/issues"
+  },
+  "homepage": "https://github.com/Oscar-Mont/256-js#readme"
+}
