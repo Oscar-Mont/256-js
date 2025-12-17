@@ -34,3 +34,5 @@ async function run() {
         console.error(`Error: Could not read file "${filePath}}". Make sure it exists.`)
     }
 }
+
+run();
