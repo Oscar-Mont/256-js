@@ -1,10 +1,13 @@
 {
-  "name": "256",
+  "name": "256-js",
   "version": "1.0.0",
   "description": "A NodeJS CLI tool that calculates the SHA256 hash function for a given file and, optionally, compares it to a user-provided string to see if they match.",
   "main": "256.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "256-calc": "./256.js"
   },
   "repository": {
     "type": "git",
